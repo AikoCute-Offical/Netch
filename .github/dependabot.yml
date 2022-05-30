@@ -5,14 +5,14 @@ updates:
     schedule:
       interval: "daily"
       time: "00:00"
-      timezone: "Asia/Shanghai"
+      timezone: "Aisa/Ho_Chi_Minh"
 
   - package-ecosystem: "nuget"
     directory: "/"
     schedule:
       interval: "daily"
       time: "00:00"
-      timezone: "Asia/Shanghai"
+      timezone: "Asia/Ho_Chi_Minh"
     labels:
       - "automatic"
 
@@ -21,6 +21,6 @@ updates:
     schedule:
       interval: "daily"
       time: "00:00"
-      timezone: "Asia/Shanghai"
+      timezone: "Asia/Ho_Chi_Minh"
     labels:
       - "automatic"

@@ -1,0 +1,43 @@
+name: Báo cáo lỗi
+description: Tạo báo cáo lỗi để giúp chúng tôi cải thiện
+labels: bug
+body:
+  - type: textarea
+    id: error
+    attributes:
+      label: mô tả sai
+      description: Mô tả lỗi rõ ràng và ngắn gọn
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Các bước để tái tạo
+      placeholder: |
+        1. Mở phần mềm Netch
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: khúc gỗ
+      description: Chúng tôi đặc biệt khuyên bạn nên đính kèm bất kỳ nhật ký nào trong thư mục `Logging`
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Môi trường hoạt động
+      render: txt
+      placeholder: |
+        Hệ điều hành：[Windows 10 x64 Professional Workstation 20H2 19042.928]
+        Phiên bản phần mềm:[1.0.0]
+    validations:
+      required: true
+  - type: textarea
+    id: info
+    attributes:
+      label: thông tin bổ sung
+      description: >
+        Trong hộp văn bản bên dưới, bạn có thể đính kèm ảnh chụp màn hình và các tệp liên quan đến sự cố

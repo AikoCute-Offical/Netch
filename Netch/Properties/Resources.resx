@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="zh_CN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-CN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral,
+    <value>..\Resources\vi-VN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral,
             PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="speed" type="System.Resources.ResXFileRef, System.Windows.Forms">

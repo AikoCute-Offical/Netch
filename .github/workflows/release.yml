@@ -95,14 +95,14 @@ jobs:
           files: |
             Netch.7z
           body: |
-            [![](https://img.shields.io/badge/Telegram-Channel-blue)](https://t.me/netch_channel) [![](https://img.shields.io/badge/Telegram-Group-green)](https://t.me/netch_group)
+            [![](https://img.shields.io/badge/Telegram-Channel-blue)](https://t.me/AikoCute_Support) [![](https://img.shields.io/badge/Telegram-Group-green)](https://t.me/aikocutehotme)
             ## Changelogs
             * This is an automated deployment of GitHub Actions, the change log should be updated manually soon
             
-            ## 更新日志
-            * 这是 GitHub Actions 自动化部署，更新日志应该很快会手动更新
+            ## Thay đổi nhật ký
+            * Đây là GitHub Actions Triển khai tự động, bảng thay đổi sẽ sớm được cập nhật theo cách thủ công
 
-            ## 校验和
-            | 文件名 | SHA256 |
+            ## Tổng kiểm tra
+            | Tên tập tin | SHA256 |
             | :- | :- |
             | Netch.7z | ${{ env.Netch_SHA256 }} |

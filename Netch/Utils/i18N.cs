@@ -43,7 +43,7 @@ public static class i18N
             case "en-US":
                 Data.Clear();
                 return;
-            case "zh-CN":
+            case "vi-VN":
                 text = Encoding.UTF8.GetString(Resources.zh_CN);
                 break;
             default:
@@ -100,7 +100,7 @@ public static class i18N
 
     public static List<string> GetTranslateList()
     {
-        var translateFile = new List<string> { "System", "zh-CN", "en-US" };
+        var translateFile = new List<string> { "System", "vi-VN", "en-US" };
 
         if (!Directory.Exists("i18n"))
             return translateFile;

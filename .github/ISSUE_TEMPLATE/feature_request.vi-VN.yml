@@ -1,0 +1,11 @@
+name: Yêu cầu tính năng
+description: Đề xuất ý tưởng cho dự án này
+labels: enhancement
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Mô tả chức năng
+      description: Mô tả ngắn gọn chức năng cần thiết
+    validations:
+      required: true
